@@ -1,7 +1,46 @@
-nav ul li {
-    display:inline-flex;
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    display:inline-flex;
+nav ul li {
+    width: 140px;
+    margin: 12px 0;
+    padding: 18px 0;
+    border-right: 1px solid black;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+}
+
+nav ul li a {
+    cursor: pointer;
+    font-Weight: Bold !important;
+    color: rgba(1,0,102,1) !important;
+    font-family: 'Roboto Condensed', Arial, sans-serif !important;
+    font-size: 18px;
+    /* padding: 18px 0; */
+    /* border-right: 1px solid black; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+body {
+width: 100%;
+height: 200vh;
+background: url('https://i.postimg.cc/mrKVNK2M/kkjh.jpg');
+}
+
+nav ul li img {
+    position: fixed;
 }
